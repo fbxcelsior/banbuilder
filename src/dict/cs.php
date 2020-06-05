@@ -4,8 +4,7 @@
  * @author Dennis Fridrich <fridrich.dennis@gmail.com>
  */
 
-array_push(
-	$badwords,
+return [
 	'anál',
 	'análu',
 	'blbec',
@@ -211,4 +210,4 @@ array_push(
 	'šukat',
 	'šulin',
 	'žrát'
-);
+];

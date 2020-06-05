@@ -8,7 +8,7 @@
  */
 
 // General insults and rudeness
-array_push($badwords,
+return [
 		'dritt',
 		'drittsekk',
 		'dust',
@@ -31,11 +31,7 @@ array_push($badwords,
 		'quisling',
 		'satan',
 		'sattan',
-		'søren'
-);
-
-// Bodily parts and actions
-array_push($badwords,
+		'søren',
 		'bæsj',
 		'dildo',
 		'ereksjon',
@@ -98,11 +94,7 @@ array_push($badwords,
 		'utpult',
 		'vagina',
 		'voldta',
-		'voldtekt'
-);
-
-// Various insults based on bodily parts
-array_push($badwords,
+		'voldtekt',
 		'fittetryne',
 		'kukklest',
 		'kukkpeis',
@@ -114,21 +106,13 @@ array_push($badwords,
 		'rasstryne',
 		'rautryne',
 		'rævtryne',
-		'rævvtryne'
-);
-
-// Racial slurs
-array_push($badwords,
+		'rævvtryne',
 		'bruning',
 		'hviting',
 		'neger',
 		'nigger',
 		'pakkis',
-		'svarting'
-);
-
-// LGBT slurs
-array_push($badwords,
+		'svarting',
 		'homo',
 		'homse',
 		'lesbe',
@@ -137,4 +121,4 @@ array_push($badwords,
 		'skinkerytter',
 		'soper',
 		'teppetygger'
-);
+];

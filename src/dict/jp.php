@@ -3,7 +3,7 @@
  * PHP Array for Janapese words
  * Original word list from http://bulbapedia.bulbagarden.net/wiki/List_of_censored_words_in_Generation_V
  */
-array_push($badwords,
+return [
 		'あいえき',     	// Sexual fluids
 		'せいえき',     	// Semen
 		'ファック',     	// Fuck
@@ -47,4 +47,4 @@ array_push($badwords,
 		'りょうじょく', 	// Rape
 		'れいぷ',     	// Rape
 		'ろりこん'  	// Pedophile
-);
+];

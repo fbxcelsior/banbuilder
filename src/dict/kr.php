@@ -3,7 +3,7 @@
  * PHP Array for Korean words
  * Original word list from http://bulbapedia.bulbagarden.net/wiki/List_of_censored_words_in_Generation_V
  */
-array_push($badwords,
+return [
 		'강간',     		// Rape
 		'개새끼',     	// Son of a bitch
 		'개지랄',     	// Careless dog (insult)
@@ -52,4 +52,4 @@ array_push($badwords,
 		'클리토리스',    	// Clitoris
 		'페니스',    		// Penis
 		'후장'    		// Gut
-);
+];

@@ -1,12 +1,12 @@
 <?php
-// Submitted via @rtxanson 
+// Submitted via @rtxanson
 // To add new swearwords, make sure to include some additional
 // wordforms.
 //
 // Existing words could always have more forms, but I was too lazy to
 // generate all of them, so this is a start; in no particular
 // order...
-array_push($badwords,
+return [
 		'jumalauta',     // goddamnit, interjection
 		'helvetit',      // hell, pl. nominative
 		'helvetiltä',    // hell, sg. ablative
@@ -422,4 +422,4 @@ array_push($badwords,
 		'horoissa',      // whore; pl. inessive
 		'horot',         // whore; pl. nominative
 		'horoja'        // whore; pl. partitive
-);
+];
