@@ -71,7 +71,7 @@ class CensorWords
     public function addFromArray($words, $override = false)
     {
         if($override) {
-            $badwords = [];
+            $this->badwords = [];
         }
 
         $badwords = array_merge($this->badwords, $words);
